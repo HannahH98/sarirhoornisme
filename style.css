@@ -1,0 +1,463 @@
+body{
+	margin:0px;
+	padding: 0px;
+	text-align: left;
+}
+
+@font-face{
+	font-family: comic book;
+	src: url(fonts/comicbook.otf);
+
+}
+
+
+header{
+	overflow: hidden;
+}
+
+nav{
+	background-color: #32B5A7;
+	opacity: 37%;
+	height: 35px;
+	width: 100%;
+	text-align: right;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+a {
+	margin-right: 15px;
+	font-family: open sans, sans-serif;
+
+}
+
+h1.nw{
+	visibility: hidden;
+	font-size: 0pt;
+
+}
+
+/*algemene tekst*/
+
+h1{
+	font-family: comic book, fantasy;
+	font-size: 20pt;
+	color:#EB5786;
+	margin-top: 0px;
+
+} 
+
+h2{
+	visibility: hidden;
+	font-size: 0pt;
+
+}
+
+h6{
+	font-family: comic book, fantasy;
+	font-weight: bold;
+	font-size: 15pt;
+	margin: 0pt;
+	color:#EB5786;
+
+}
+
+p {
+	font-family: open sans, sans-serif;
+}
+
+
+/*Links voor de Navigatie*/
+a:link{
+	color: white;
+	text-decoration: none;
+
+}
+a:visited{/*a link die bezocht is*/
+	color: white;
+	text-decoration: underline;
+
+	} 
+
+a:hover{/*a link waar de muis overheen hovert*/
+	color: #EB5786;
+	text-decoration: underline;
+	text-decoration-color: #EB5786;
+	} 
+
+a:active { /*a Link waar opgeklikt wordt*/
+	color:#FF970E;
+	font-weight: bold;
+
+	}
+
+/*home pagina*/
+header.home{
+	background: url(links/header.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	font-family: sans-serif;
+}
+
+article{
+	margin-top: 50px;
+	margin-left: 15%;
+	text-align:center;
+	width: 85%;
+	height: 600px;
+	overflow: auto;
+}
+
+section.boven{
+	display: inline-flex;
+	text-align: center;
+	margin-bottom: 2.5%;
+	width: 80%;
+	height: 250px;
+}
+
+section.linksboven{
+	text-align: left;
+	margin-right: 2.5%;
+	height: 200px;
+	width: 30%; 
+	background-color: rgba(97,193,193,0.3); 
+	padding: 20px;
+	overflow:hidden;
+
+}
+
+
+section.rechtsboven{
+	text-align: right;
+	margin-left: 2.5%;
+	height: 200px;
+	width: 30%;
+	background-color: rgba(97,193,193,0.3);
+	padding: 20px;
+	overflow: scroll;
+
+}
+
+section.onder{
+	display: inline-flex;
+	text-align: center;
+	margin-top: 2.5%;
+	width: 80%;
+	height: 250px;
+
+}
+
+section.linksonder{
+	text-align: left;
+	margin-right: 2.5%;
+	height: 200px;
+	width: 30%;
+	background-color: rgba(97,193,193,0.3); 
+	padding: 20px;
+	overflow: scroll;
+
+}
+
+
+section.rechtsonder{
+	text-align: right;
+	margin-left: 2.5%;
+	height: 200px;
+	width: 30%;
+	background-color: rgba(97,193,193,0.3);
+	padding: 20px;
+	overflow: scroll;
+
+}
+
+p.homelinks{
+	font-size: 10pt;
+	color: #EB5786;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+p.homerechts{
+	font-size: 10pt;
+	color: #EB5786;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+h1.home {
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 20pt;
+	overflow: auto;
+
+} 
+
+h6.rechts{
+	text-align: left;
+}
+
+/* 10 geboden pagina */
+article.afbeelding{
+	text-align: center;
+	height: auto;
+	width: 60%;
+	margin-bottom: 5%;
+	overflow: hidden;
+	margin-left: 20%;
+
+}
+
+img{
+	width: 80%;
+
+}
+
+figcaption{
+	font-family: comic book;
+	font-size: 100%;
+	text-align: center;
+	margin-bottom: 10%;
+
+}
+
+figcaption.roze{
+	color: #EB5786;
+
+}
+
+figcaption.oranje{
+	color: #FF970E;
+
+}
+
+figcaption.geel{
+	color: #DFDD00;
+
+}
+
+figcaption.blauw{
+	color: #61C1C1;
+
+}
+
+figcaption.groen{
+	color: #32B5A7;
+
+}
+
+h1.geboden{
+	font-size: 25pt;
+	text-align: center;
+	width: 100%;
+	color: #32B5A7;
+
+}
+
+/*wat doen wij*/
+
+main{
+	text-align: center;
+	height: auto;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
+}
+
+article.wdwt{
+	height: auto;
+	width: 60%;
+	text-align:center;
+	margin-top: 0%;
+	margin-left: 20%;
+}
+
+h1.wdw{
+	font-size: 25pt;
+	text-align: center;
+	width: 100%;
+	color: #DFDD00;
+}
+
+p.wdwtekst{
+	text-align: left;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+img.gif{
+	width: 100%;
+	animation-play-state: running;
+	margin-top: 10px;
+
+}
+
+/*contact*/
+article.formulier{
+	text-align: center;
+	width: 60%;
+	height: auto;
+	margin-top: 65px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+}
+
+
+form{
+	float: left;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	padding-top: 1%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+
+img.formulier{
+
+	float: right;
+	width: auto;
+	display: inline-flex;
+	margin-right: 60px;
+
+}
+
+h1.form{
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 0px;
+	width: 100px;
+
+}
+
+input[type="text"]{
+	display: block;
+	text-align: left;
+	width: 40%;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+input[type="email"]{
+	display: block;
+	text-align: left;
+	width: 40%;
+	border: 1px solid white;
+	box-shadow:0px 0px 10px 0px #EB5786;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin: 5px 0px 20px 0px;
+
+}
+
+#blauw{
+	padding-left: 10px;
+	box-shadow:0px 0px 10px 0px #61C1C1;
+	margin: 5px 0px 20px 0px;
+
+}
+
+#oranje{
+	box-shadow: 0px 0px 10px 0px #FF970E;
+	width: 100%;
+	height: 200px;
+	padding-left: 10px;
+	margin: 5px 0px 20px 0px;
+	text-align: left;
+	
+}
+
+input[type="submit"]{
+	display: block;
+	background: linear-gradient(100deg,  #EB5786, #FD8A5E, #DFDD00, #61C1C1);
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 100px;
+	height: 30px;
+	padding-left: 10px;
+	color: white;
+
+}
+
+::placeholder {
+	width: 50%;
+	overflow: scroll;
+	text-align: left;
+}
+
+
+/* bedankt pagina*/
+
+section.bedankt{
+	height: 350px;
+	width: 60%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+
+}
+
+p.tekstbedankt{
+	float: left;
+	text-align: center;
+	font-family: comic book;
+	margin-top: 100px;
+	color: #EB5786;
+
+}
+
+
+img.bedanktimg{
+	width: auto;
+	float: right;
+}
+
+
+/*footer*/
+
+footer{
+	height: 100px;
+	background-image: linear-gradient(to right, #EB5786, #FD8A5E, #DFDD00, #61C1C1);
+	padding-left: 10px;
+	padding-bottom: 2%;
+
+}
+
+p.footertext{
+	text-align: left;
+	font-size: 10pt;
+	font-family: comic book, fantasy ;
+
+}
+input[id^="subscribe"]{
+	text-align: right;
+	width: 40%;
+	height: 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+input[type="submit"].footerknop{
+	background: white;
+	height: 20px;
+	float: center;
+	color:  #EB5786;
+	margin-top: 4%;
+}
+
+form.footer{
+	text-align: left;
+	width: 40%;
+	height: 80px;
+	margin-left: 5%;
+
+}
